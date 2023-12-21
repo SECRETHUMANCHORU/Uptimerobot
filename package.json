@@ -1,0 +1,39 @@
+{
+  "name": "Uptimerobot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "upm/Start.js",
+  "engines": {
+    "node": "14.15.4"
+  },
+  "scripts": {
+    "start": "nodemon upm/Start.js"
+  },
+  "keywords": [],
+  "author": "ChoruTiktokers",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "ansi-styles": "^6.2.1",
+    "axios": "^1.4.0",
+    "chalk": "^4.1.2",
+    "cli-table": "^0.3.11",
+    "cors": "^2.8.5",
+    "data": "^0.6.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "fs-extra": "^10.0.0",
+    "helmet": "^4.4.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.14",
+    "ping-monitor": "^0.6.2",
+    "shuffle-array": "",
+    "sqlite3": "^5.1.6",
+    "string-similarity": "^4.0.4",
+    "stripe": "^8.132.0",
+    "supports-color": "^9.3.1"
+  }
+}
